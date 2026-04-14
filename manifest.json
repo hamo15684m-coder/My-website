@@ -1,0 +1,64 @@
+{
+  "name": "نفهم AI - مدرسك الذكي",
+  "short_name": "نفهم AI",
+  "description": "منصة تعليمية ذكية لطلاب الثانوية العامة المصرية",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#F8F4F1",
+  "theme_color": "#10B981",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/brand/nafham-app-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/brand/nafham-app-icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/brand/nafham-primary-logo.png",
+      "sizes": "500x500",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "سؤال سريع",
+      "short_name": "سؤال",
+      "description": "اسأل نفهم AI سؤالاً سريعاً",
+      "url": "/chat?quick=true",
+      "icons": [{ "src": "/brand/nafham-app-icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "جدول المذاكرة",
+      "short_name": "جدول",
+      "description": "إنشاء جدول مذاكرة",
+      "url": "/study-planner",
+      "icons": [{ "src": "/brand/nafham-app-icon-192.png", "sizes": "192x192" }]
+    }
+  ],
+  "categories": ["education", "productivity"],
+  "lang": "ar",
+  "dir": "rtl",
+  "screenshots": [
+    {
+      "src": "/brand/nafham-primary-logo.png",
+      "sizes": "500x500",
+      "type": "image/png",
+      "label": "شعار نفهم AI",
+      "form_factor": "wide"
+    }
+  ],
+  "prefer_related_applications": false,
+  "handle_links": "preferred",
+  "launch_handler": {
+    "client_mode": "navigate-existing"
+  }
+}

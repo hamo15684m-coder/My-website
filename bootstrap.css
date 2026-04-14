@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  font-family:
+    "Cairo",
+    "Tajawal",
+    "Segoe UI",
+    "Tahoma",
+    "Arial",
+    sans-serif;
+  font-weight: 500;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  overscroll-behavior-y: contain;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+.font-arabic-fallback,
+body.font-fallback {
+  font-family:
+    "Traditional Arabic",
+    "Arabic Typesetting",
+    "Cairo",
+    "Tajawal",
+    "Segoe UI",
+    "Tahoma",
+    "Arial",
+    sans-serif !important;
+}
+
+.font-loading {
+  visibility: hidden;
+}
+
+.font-loaded {
+  visibility: visible;
+}
